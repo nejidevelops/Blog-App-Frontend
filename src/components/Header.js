@@ -29,7 +29,6 @@ const NavItem = ({item}) => {
                                 <a href='/' className='hover:bg-dark-hard hover:text-white px-4 py-2 text-white lg:text-dark-soft'>
                                     {item}
                                 </a>
-                            // <li key={item} className='px-4 py-2'>{item}</li>
                         ))}
                     </ul>
                 </div>
