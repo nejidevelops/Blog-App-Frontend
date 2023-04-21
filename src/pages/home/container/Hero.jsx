@@ -15,8 +15,8 @@ const Hero = () => {
                 </div>
                 <button className='w-full bg-primary text-white font-semibold rounded-lg px-5 py-3 md:absolute md:right-2 md:top-1/2 md:-translate-y-1/2 md:w-fit md:py-2'>Search</button>
             </div>
-            <div className='flex mt-4 flex-col lg:flex-row lg:flex-nowrap lg:gap-x-4 lg:mt-7'>
-                <span className='text-dark-light font-semibold italic'>Popular Tags:</span>
+            <div className='flex mt-4 flex-col lg:flex-row lg:items-start lg:flex-nowrap lg:gap-x-4 lg:mt-7'>
+                <span className='text-dark-light font-semibold italic mt-2 lg:mt-4'>Popular Tags:</span>
                 <ul className='flex flex-wrap gap-x-2.5 gap-y-2.5 mt-3'>
                     <li className='rounded-lg bg-primary bg-opacity-10 px-3 py-1.5 text-primary font-semibold'>Design</li>
                     <li className='rounded-lg bg-primary bg-opacity-10 px-3 py-1.5 text-primary font-semibold'>User Experience</li>
@@ -24,8 +24,8 @@ const Hero = () => {
                 </ul>
             </div>
         </div>
-        <div className='hidden lg:block'>
-            <img src={images.HeroImage} alt="Users are reading articles" />
+        <div className='hidden lg:block lg:1/2'>
+            <img className='w-full' src={images.HeroImage} alt="Users are reading articles" />
         </div>
     </section>
   )
